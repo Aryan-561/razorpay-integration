@@ -88,7 +88,7 @@ form.addEventListener('submit', async (event) => {
             order_id: order.id,
             amount: order.amount,
             currency: order.currency,
-            name: 'Naughty Gaziabad',
+            name: 'My Store',
             description: 'Test Transaction',
             handler: async function (response) {
                 try {
